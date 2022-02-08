@@ -1,0 +1,25 @@
+<%- include('includes/head.ejs') %>
+
+<div class="top-container">
+  <h1>Resultados sobre sua pesquisa no blog:</h1>
+
+  <img src="https://yata.ostr.locaweb.com.br/e476ab3fff98bc59d1754f7cd70d65c0f92cb7aa1a9fae072171590c57ae60cc" alt="">
+</div>
+
+<div class="container">
+  <% if (posts.length > 0) { %>
+    <% for (let post of posts) { %>
+      <div class="blog-post">
+        <div class="blog-post-img">
+          <img src="<%- post.imgurl %>">
+        </div>
+        <h1>
+          <a href="/posts/ <%- post.id %>">
+          <%- post.title %></a></h1>
+        <p><%- post.description %></p>
+      </div>
+      <% }}%>
+    </div>
+</div>
+
+<%- include('includes/footer.ejs') %>

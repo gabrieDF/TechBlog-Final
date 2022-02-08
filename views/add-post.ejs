@@ -1,0 +1,31 @@
+<%- include('includes/head.ejs') %>
+
+<div class="top-container">
+  <h1>Adicionar novo post
+</div>
+
+<form class="form" method="post" action="/posts/add" enctype="multipart/form-data"> 
+  <label for="title">Titulo:</label>
+  <input type="text" name="title">
+
+  <div class="from-image">
+    <label for="image">Adicionar uma imagem ao post</label>
+    <input type="file" name="image" id="image">
+  </div>
+
+  <label for="description">descrição:</label>
+  <input type="text" name="description">
+
+  <label for="text">corpo do post:</label>
+  <textarea name="text"></textarea>
+
+  <button class="submitButton">Adicionar</button>
+</form>
+
+
+<footer class="footer-add-post"> 
+  
+  <p>TechBlog. Todos os direitos autorais reservados. 2022</p>
+</footer>
+</body>
+</html>
