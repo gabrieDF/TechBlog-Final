@@ -21,6 +21,12 @@ Projeto TechBlog. -- Projeto pessoal com maior foco no BackEnd, feito com intuit
 
 ##
 
+<h2>Page para adição de uma nova noticia</h2>
+
+![techBlog-addPost](https://user-images.githubusercontent.com/91755560/153097144-c5105ad5-d619-4642-891e-f41cfba57298.png)
+
+##
+
 <h2>Exibindo resultados de pesquisas</h2>
 
 ![techBlog-searchPost](https://user-images.githubusercontent.com/91755560/153097405-ecb36ba2-a97b-4521-90d3-9272f45a4f65.png)
