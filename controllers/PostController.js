@@ -30,21 +30,6 @@ exports.listAll = async (req, res) => {
   })
 }
 
-
-// bd.all('SELECT * FROM projetos', function (err, rows) {
-//   if (err) return console.log(err)
-//   let projetosRevert = [...rows].reverse()
-//   let ultimosProjetos = []
-//   for (projeto of projetosRevert) {
-//     if (ultimosProjetos.length < 3) {
-//       ultimosProjetos.push(projeto)
-//     }
-//   }
-//   return res.render('index.html', { rows: ultimosProjetos })
-//   console.log(rows)
-// })
-// })
-
 exports.listOne = async (req, res) => {
   const { id } = req.params
 
